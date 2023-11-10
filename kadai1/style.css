@@ -1,0 +1,493 @@
+<style type="text/css">
+body{
+    color: #000;
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+body, div, p, ul, ol, li, dl, dt, dd, table, th, td, img, figure, h1, h2, h3, h4, h5, h6, form, select {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+  color:black;
+  text-decoration: none;
+}
+ul{
+  list-style:none;
+}
+main{
+  display:block;
+}
+img{
+  border:0;
+  vertical-align: middle;
+}
+
+p{
+  color: black;
+  line-height:1.3;
+}
+section{
+  display: block;
+}
+ *,*:before,*:after{
+    word-break:break-all;
+    -webkit-box-sizing: break-all;
+    -moz-box-sizing: border-box;
+    box-sizing:border-box;
+ }
+ video{
+   object-fit: contain;
+   overflow-clip-margin:content-box;
+   overflow:clip;
+ }
+ header{
+   display: block;
+ }
+ .Header{
+   width: 100%
+ }
+  
+    
+ .Header{
+   width:100%;
+   position:absolute;
+   padding-top:20px;
+   padding-bottom:20px;
+   display:block;
+ }
+ 
+  .headerContainer{
+    display:flex;
+    justify-content:space-between;
+    margin:0 36px;
+    max-width:100%;
+    position:relative;
+  }
+  .HeaderLogo{
+    align-self:center;
+  }
+  
+  .headerLogo_image_pc{
+    display:block;
+    height:20px;
+    width:auto;
+  }
+  
+  .headerLogo_image_phone{
+    display: none;
+  }
+  
+
+  .HeaderContainer>*:last-child{
+   display:inline-flex; 
+  }
+  .HeaderNavHamburger{
+    display:none;
+  }
+  .HeaderNavList{
+    align-items:center;
+    display:flex;
+    justify-content:space-between;
+  }
+  .HeaderNavListItem{
+    margin-right:45px;
+  }
+  
+  .HeaderNavListItem_link{
+    display: block;
+  }
+  
+  .HeaderNavListItem_link>span{
+    display: block;
+    font-weight: 700;
+    text-align:center;
+  }
+  
+  .HeaderNavListItem:last-of-type{
+    margin-right:0;
+  }
+  
+  .HeaderNavListItem_button:hover{
+    background-color:rgb(249, 194, 65);
+  }
+  .HeaderNavListItem_button{
+    align-items:center;
+    background-color: #f79214;
+    border:none;
+    border-radius: 38px;
+    cursor: pointer;
+    color:#fff;
+    display:flex;
+    flex-direction:column;
+    font-size:16px;
+    font-weight: 700;
+    height:64px;
+    justify-content:center;
+    text-decoration: none;
+    text-align: center;
+    width:100%;
+  }
+  /*URL取得*/
+  
+ .FirstView{
+    background-image: url("https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 28px;
+ }
+ 
+.FirstViewBackgroundPhone{
+  display: none;
+}
+
+.FirstViewBackgroundPhone{
+  width: 100%;
+}
+
+/*atode minaosu*/
+
+ .FirstView_container{
+   max-width:1140px;
+   padding-left:50px;
+   padding-right:50px;
+   margin-left:auto;
+   margin-right:auto;
+   position:relative;
+ }
+ .FirstViewContent{
+   margin-bottom:70px;
+   width:fit-content;
+ }
+ .FirstView_title{
+   color:#333;
+   font-family:bold;
+   font-size:38px;
+   font-weight:700;
+   line-height:54px;
+   margin-bottom:15px;
+   text-align:center;
+   margin-top: 25px;
+ }
+ .FirstView_images{
+   display:flex;
+   margin-bottom:25px;
+ }
+ .FirstView_images{
+   margin-bottom:25px;
+   margin-left:30px;
+ }
+ 
+ 
+.FirstView_counseling:hover{
+    background-color:rgb(249, 194, 65);
+ }
+  
+  
+  
+ .FirstView_counseling{
+   align-items: center;
+   background-color: #f79214;
+   color: white;
+   border: none;
+   border-radius: 38px;
+   cursor: pointer;
+   display: flex;
+   flex-direction: column;
+   font-size: 16px;
+   font-weight: 700;
+   height: 64px;
+   justify-content: center;
+   text-decoration: none;
+   text-align: center;
+   width: 100%;
+  }
+ .FirstViewSupplement{
+   color:gray;
+   font-size:12px;
+ }
+ .FirstViewSupplement a{
+   color: #A2A2A4;
+ }
+ 
+ /*wrapper*/
+ 
+ .AboutBar{
+   padding:120px 0;
+   background-color:#f79214;
+   padding:44px;
+ }
+ .About{
+   max-width: 1140px;
+   padding-left: 50px;
+   padding-right: 50px;
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+   align-items: center;
+   display: flex;
+   justify-content: space-between;
+ }
+ .VideoAbout{
+   width:50%;
+ }
+ .Whats_potepan{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   align-items: flex-start;
+   margin-bottom:0;
+   margin-left: 32px;
+ }
+ .Whats_potepan h2{
+   font-size: 38px;
+   font-weight: 900;
+   letter-spacing: .1em;
+   line-height: 54px;
+   margin-bottom: 8px;
+   width: 100%;
+ }
+ .Whats_potepan h2>span{
+  font-family:Lato;
+  Font-size:38px;
+ }
+ .Whats_potepan h2 span{
+  font-weight:900;
+ }
+ .Whats_potepan p {
+  font-size:16px;
+  font-weight:700;
+  line-height:26px;
+  margin-bottom:24px;
+ }
+ .Whats_potepan h2, .Whats_potepan p{
+  color:#fff;
+  text-align:left;
+ }
+ .Whats_potepan p{
+   text-decoration: none
+ }
+ .Whats_potepan p{
+  font-weight: normal;
+ }
+ .reskilling_logo_image{
+   width: 158px
+ }
+ .VideoAbout{
+   width: 50%;
+ }
+   /*responsive */
+ 
+ @media screen and ( max-width:1080px ) {
+  .Header {
+    background-color: #fff;
+    z-index: 10;
+  }
+  .Header--common{
+    position: fixed !important
+  }
+  .HeaderNavList {
+    position: fixed;
+    overflow-y: scroll;
+    left: 100%;
+    width:100%;
+    display:block;
+    padding-top: 20px;
+    padding-bottom: 75px;
+    transition: transform .5s;
+    z-index: 99;
+    background-color: rgba(0,0,0,.8);
+    height: 100%
+  }
+  
+  .HeaderNavHamburger {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 21px;
+    z-index: 100;
+  }
+  
+  .HeaderNavHamburger_line {
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #333;
+    transform: translate(0,-50%);
+    border-radius: 10px;
+    transition: top .2s,transform .2s,opacity .3s;
+  }
+  
+  .HeaderNavHamburger_line:first-child {
+    top: 0;
+  }
+  
+  .HeaderNavHamburger_line:last-child {
+    top: 100%;
+  }
+  
+
+  .HeaderNavList.is-active {
+    transform: translate3d(-100%,0,0);
+  }
+  .HeaderNavListItem {
+    margin-right: 0;
+  }
+  
+  .HeaderNavListItem_link {
+    padding: 20px 0;
+  }
+  
+  .HeaderNavListItem_link>span:first-child {
+    font-size: 16px;
+    letter-spacing: 5px;
+    color: #fff;
+  }
+  
+  .HeaderNavListItem_link>span:last-child {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #f79214;
+    letter-spacing: 2px;
+  }
+  
+  .HeaderNavListItem:last-of-type {
+    margin-top: 20px;
+  }
+  
+  .HeaderNavListItem_button {
+    font-size: 16px;
+    margin: 0 auto;
+    height: 60px;
+    width: 250px;
+  }
+  
+}
+
+
+
+/*1024*/
+
+
+
+@media screen and ( max-width:1024px ) {
+  
+
+  
+  .About {
+    flex-direction: column; 
+  }
+  
+  .Whats_potepan {
+    margin-left: 0;
+    width: 75%;
+  }
+  
+  .VideoAbout {
+    margin-bottom: 16px;
+    width: 75%;
+  }
+  .reskilling_logo{
+    margin:auto;
+  }
+}
+
+/*768px*/
+@media screen and (min-width:768px){
+  .HeaderLogo{
+    transition: opacity.2s;
+  }
+}
+
+
+
+
+/*767px*/
+
+
+
+
+@media screen and ( max-width:767px ) {
+ 
+  .headerLogo_image_pc{
+    display: none
+  }
+  
+  
+  .headerLogo_image_phone{
+    display: block;
+  }
+  
+  .FirstView {
+    background-image: none;
+    padding-top: 0;
+    padding-bottom: 35px
+  }
+  
+  .FirstViewBackgroundPhone {
+    display: block;
+  }
+  
+  .FirstView_container {
+    margin-top: -45vw;
+    max-width: none;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .FirstViewContent {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .FirstView_title{
+    font-size: 25px;
+    line-height: 36px;
+    margin-left: calc(((100vw-100%)/2)*-1);
+    margin-right: calc(((100vw-100%)/2)*-1);
+  }
+  
+  .FirstView_images {
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  
+  .FirstView_images img {
+    width: 27.5%;
+  }
+  .FirstView_images img:nth-of-type(2){
+    width: 40%
+  }
+  
+  .FirstView_images img:last-of-type{
+    margin-right:0;
+  }
+
+  .FirstView_counseling  {
+    width: 100% !important;
+  }
+  
+  .AboutBar{
+    padding:30px 0;
+  }
+  .About{
+    max-width: none;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .VideoAbout{
+    width: 100%;
+  }
+  
+  .Whats_potepan{
+    margin-bottom: 0;
+    width: 100%;
+  }
+
+</style>
