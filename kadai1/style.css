@@ -32,32 +32,27 @@ p{
 section{
   display: block;
 }
- *,*:before,*:after{
+*,*:before,*:after{
     word-break:break-all;
     -webkit-box-sizing: break-all;
     -moz-box-sizing: border-box;
     box-sizing:border-box;
  }
- video{
+video{
    object-fit: contain;
    overflow-clip-margin:content-box;
    overflow:clip;
  }
- header{
+header{
    display: block;
- }
- .Header{
-   width: 100%
- }
-  
-    
- .Header{
-   width:100%;
+   width: 100%;
    position:absolute;
    padding-top:20px;
    padding-bottom:20px;
-   display:block;
  }
+  
+    
+
  
   .headerContainer{
     display:flex;
@@ -110,6 +105,12 @@ section{
     margin-right:0;
   }
   
+
+  .HeaderNavListItem_link:hover{
+    color: rgb(61, 60, 58);
+
+  }
+
   .HeaderNavListItem_button:hover{
     background-color:rgb(249, 194, 65);
   }
@@ -122,13 +123,15 @@ section{
     color:#fff;
     display:flex;
     flex-direction:column;
-    font-size:16px;
+    font-size:12px;
     font-weight: 700;
     height:64px;
     justify-content:center;
     text-decoration: none;
     text-align: center;
     width:100%;
+    height: 40px;
+    padding:0 20px;
   }
   /*URL取得*/
   
